@@ -1,3 +1,5 @@
+export * from './services/token-service';
+
 export * from './middlewares/validate-request';
 export * from './middlewares/cookie-session';
 export * from './middlewares/current-user';
