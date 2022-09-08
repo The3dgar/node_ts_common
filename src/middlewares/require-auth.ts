@@ -1,5 +1,4 @@
 import { Request, Response, NextFunction } from 'express';
-import { TokenService } from '../../../services/src/auth/services/token-service';
 import { NotAuthorizedError } from '../errors/not-authorized-error';
 
 export const RequireAuthMiddleware = async (
